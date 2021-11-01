@@ -1,19 +1,8 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
-    "uid" : "60c9a6102b24a8733355dea97f92816f",
-    "name" : "Inclusão de produtos Automationpractice",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 3
-    }
-  }, {
-    "uid" : "48d85075effc392b4b30cf2001bf14e6",
-    "name" : "",
+    "uid" : "08f6b60803eba997d17199c0d73086b1",
+    "name" : "Compra de produto no e-comerce Automation Practice",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
