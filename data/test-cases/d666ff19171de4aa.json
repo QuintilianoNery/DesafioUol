@@ -1,12 +1,12 @@
 {
-  "uid" : "b4e8f8361d665fc",
+  "uid" : "d666ff19171de4aa",
   "name" : "Inclusão de um produto no carrinho com exclusão de produto",
   "fullName" : "Inclusão de um produto no carrinho com exclusão de produto",
   "historyId" : "c0fe44a2ff511708d246d7752ae12a71",
   "time" : {
-    "start" : 1635729172077,
-    "stop" : 1635729180010,
-    "duration" : 7933
+    "start" : 1635729643322,
+    "stop" : 1635729652881,
+    "duration" : 9559
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "backgroundLogin",
       "time" : {
-        "start" : 1635729172159,
-        "stop" : 1635729172166,
-        "duration" : 7
+        "start" : 1635729643417,
+        "stop" : 1635729643449,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "setCookie PrestaShop-a30a9934ef476d11b6cc3c983616e364, R6xmma6F4U6edNQuu67M0lYyG4p0n2Uj%2F%2B75zRUmzBWS%2FhpFBJtY0v0dNeXhYw4PbF5cMFyXu%2BagQjT7RandwxjVlDdhpC0yiFq9prxeX7kO25%2BLZrsKuBM7eFYMJDSjKx%2BX0hpaqVOfOTpd6B%2BM%2BnW2AfmOXAjVHSnJ8AXXBTWU70p%2FWkZQu5VE4Ylw15vkFjODpeEzNVqguWv%2BDs7EWAaRTBHlT5oK33RSpBLB5KkX8I5ObdE1tJVERFGGfEWnkdViuhrvuNPqfRS%2F8%2FRfTdC7%2BpTxPsBZXMAPVwd5k0bTeLV%2FNcPKBuMZ51lEsS0r8tspyfSWtGmpQJhUdYcn5rxpreWVe7ZSCS69H%2BCeSGVIlJ1G%2B991po9oiqTiSoyukGYD2pXk%2BAvwRTV1pn0v0ux5Zm0fP%2BUURLVMGshAigU%3D000311",
         "time" : {
-          "start" : 1635729172160,
-          "stop" : 1635729172166,
-          "duration" : 6
+          "start" : 1635729643427,
+          "stop" : 1635729643449,
+          "duration" : 22
         },
         "status" : "passed",
         "steps" : [ ],
@@ -47,9 +47,9 @@
     }, {
       "name" : "visit / -> 302: http://automationpractice.com/index.php",
       "time" : {
-        "start" : 1635729172166,
-        "stop" : 1635729173432,
-        "duration" : 1266
+        "start" : 1635729643449,
+        "stop" : 1635729645110,
+        "duration" : 1661
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,8 +62,8 @@
     }, {
       "name" : "url",
       "time" : {
-        "start" : 1635729173432,
-        "stop" : 1635729173436,
+        "start" : 1635729645110,
+        "stop" : 1635729645114,
         "duration" : 4
       },
       "status" : "passed",
@@ -77,8 +77,8 @@
     }, {
       "name" : "assert expected **http://automationpractice.com/index.php** to include **/index.php**",
       "time" : {
-        "start" : 1635729173436,
-        "stop" : 1635729173436,
+        "start" : 1635729645114,
+        "stop" : 1635729645114,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,9 +95,9 @@
     }, {
       "name" : "get input[id=search_query_top]",
       "time" : {
-        "start" : 1635729173436,
-        "stop" : 1635729173450,
-        "duration" : 14
+        "start" : 1635729645114,
+        "stop" : 1635729645138,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,9 +110,9 @@
     }, {
       "name" : "type Faded Short Sleeve T-shirts",
       "time" : {
-        "start" : 1635729173450,
-        "stop" : 1635729174445,
-        "duration" : 995
+        "start" : 1635729645138,
+        "stop" : 1635729645879,
+        "duration" : 741
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,9 +125,9 @@
     }, {
       "name" : "get button[name=submit_search]",
       "time" : {
-        "start" : 1635729174445,
-        "stop" : 1635729174483,
-        "duration" : 38
+        "start" : 1635729645879,
+        "stop" : 1635729645885,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -140,9 +140,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635729174483,
-        "stop" : 1635729174686,
-        "duration" : 203
+        "start" : 1635729645885,
+        "stop" : 1635729646346,
+        "duration" : 461
       },
       "status" : "passed",
       "steps" : [ ],
@@ -155,8 +155,8 @@
     }, {
       "name" : "form sub --submitting form--",
       "time" : {
-        "start" : 1635729174685,
-        "stop" : 1635729174685,
+        "start" : 1635729646346,
+        "stop" : 1635729646346,
         "duration" : 0
       },
       "status" : "passed",
@@ -170,8 +170,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635729174686,
-        "stop" : 1635729174686,
+        "start" : 1635729646346,
+        "stop" : 1635729646346,
         "duration" : 0
       },
       "status" : "passed",
@@ -185,9 +185,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=Faded+Short+Sleeve+T-shirts&submit_search=",
       "time" : {
-        "start" : 1635729174686,
-        "stop" : 1635729175733,
-        "duration" : 1047
+        "start" : 1635729646346,
+        "stop" : 1635729647550,
+        "duration" : 1204
       },
       "status" : "passed",
       "steps" : [ ],
@@ -200,8 +200,8 @@
     }, {
       "name" : "get a[title=View]",
       "time" : {
-        "start" : 1635729175733,
-        "stop" : 1635729175733,
+        "start" : 1635729647550,
+        "stop" : 1635729647550,
         "duration" : 0
       },
       "status" : "passed",
@@ -215,9 +215,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635729175733,
-        "stop" : 1635729175951,
-        "duration" : 218
+        "start" : 1635729647550,
+        "stop" : 1635729647701,
+        "duration" : 151
       },
       "status" : "passed",
       "steps" : [ ],
@@ -230,8 +230,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635729175951,
-        "stop" : 1635729175951,
+        "start" : 1635729647701,
+        "stop" : 1635729647701,
         "duration" : 0
       },
       "status" : "passed",
@@ -245,9 +245,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve+T-shirts&results=1",
       "time" : {
-        "start" : 1635729175951,
-        "stop" : 1635729176776,
-        "duration" : 825
+        "start" : 1635729647701,
+        "stop" : 1635729648634,
+        "duration" : 933
       },
       "status" : "passed",
       "steps" : [ ],
@@ -260,8 +260,8 @@
     }, {
       "name" : "get h1[itemprop=name]",
       "time" : {
-        "start" : 1635729176776,
-        "stop" : 1635729176776,
+        "start" : 1635729648634,
+        "stop" : 1635729648634,
         "duration" : 0
       },
       "status" : "passed",
@@ -275,8 +275,8 @@
     }, {
       "name" : "assert expected **<h1>** to contain text **Faded Short Sleeve T-shirts**",
       "time" : {
-        "start" : 1635729176776,
-        "stop" : 1635729176776,
+        "start" : 1635729648634,
+        "stop" : 1635729648634,
         "duration" : 0
       },
       "status" : "passed",
@@ -296,9 +296,9 @@
     }, {
       "name" : "get a.product_quantity_up",
       "time" : {
-        "start" : 1635729176776,
-        "stop" : 1635729176789,
-        "duration" : 13
+        "start" : 1635729648635,
+        "stop" : 1635729648641,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -311,9 +311,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635729176789,
-        "stop" : 1635729176979,
-        "duration" : 190
+        "start" : 1635729648641,
+        "stop" : 1635729648796,
+        "duration" : 155
       },
       "status" : "passed",
       "steps" : [ ],
@@ -326,9 +326,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635729176979,
-        "stop" : 1635729177166,
-        "duration" : 187
+        "start" : 1635729648796,
+        "stop" : 1635729649001,
+        "duration" : 205
       },
       "status" : "passed",
       "steps" : [ ],
@@ -341,143 +341,8 @@
     }, {
       "name" : "get a.product_quantity_down",
       "time" : {
-        "start" : 1635729177166,
-        "stop" : 1635729177191,
-        "duration" : 25
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1635729177191,
-        "stop" : 1635729177352,
-        "duration" : 161
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1635729177352,
-        "stop" : 1635729177575,
-        "duration" : 223
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get a[id=color_14]",
-      "time" : {
-        "start" : 1635729177575,
-        "stop" : 1635729177585,
-        "duration" : 10
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1635729177585,
-        "stop" : 1635729177791,
-        "duration" : 206
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "new url http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve+T-shirts&results=1#/size-s/color-blue",
-      "time" : {
-        "start" : 1635729177790,
-        "stop" : 1635729177790,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get a[id=color_13]",
-      "time" : {
-        "start" : 1635729177791,
-        "stop" : 1635729177808,
-        "duration" : 17
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1635729177808,
-        "stop" : 1635729177961,
-        "duration" : 153
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "new url http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve+T-shirts&results=1#/size-s/color-orange",
-      "time" : {
-        "start" : 1635729177961,
-        "stop" : 1635729177961,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get button[name=Submit]",
-      "time" : {
-        "start" : 1635729177961,
-        "stop" : 1635729177985,
+        "start" : 1635729649001,
+        "stop" : 1635729649025,
         "duration" : 24
       },
       "status" : "passed",
@@ -491,9 +356,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635729177985,
-        "stop" : 1635729178154,
-        "duration" : 169
+        "start" : 1635729649025,
+        "stop" : 1635729649201,
+        "duration" : 176
       },
       "status" : "passed",
       "steps" : [ ],
@@ -504,10 +369,145 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST http://automationpractice.com/index.php?rand=1635729178087",
+      "name" : "click",
       "time" : {
-        "start" : 1635729178154,
-        "stop" : 1635729178154,
+        "start" : 1635729649201,
+        "stop" : 1635729649372,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get a[id=color_14]",
+      "time" : {
+        "start" : 1635729649372,
+        "stop" : 1635729649431,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1635729649431,
+        "stop" : 1635729649723,
+        "duration" : 292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve+T-shirts&results=1#/size-s/color-blue",
+      "time" : {
+        "start" : 1635729649722,
+        "stop" : 1635729649722,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get a[id=color_13]",
+      "time" : {
+        "start" : 1635729649723,
+        "stop" : 1635729649753,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1635729649753,
+        "stop" : 1635729649946,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve+T-shirts&results=1#/size-s/color-orange",
+      "time" : {
+        "start" : 1635729649946,
+        "stop" : 1635729649946,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get button[name=Submit]",
+      "time" : {
+        "start" : 1635729649946,
+        "stop" : 1635729649977,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1635729649977,
+        "stop" : 1635729650306,
+        "duration" : 329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST http://automationpractice.com/index.php?rand=1635729650217",
+      "time" : {
+        "start" : 1635729650306,
+        "stop" : 1635729650306,
         "duration" : 0
       },
       "status" : "passed",
@@ -521,9 +521,9 @@
     }, {
       "name" : "get .icon-ok",
       "time" : {
-        "start" : 1635729178154,
-        "stop" : 1635729178177,
-        "duration" : 23
+        "start" : 1635729650306,
+        "stop" : 1635729650339,
+        "duration" : 33
       },
       "status" : "passed",
       "steps" : [ ],
@@ -536,9 +536,9 @@
     }, {
       "name" : "parent (\"\")",
       "time" : {
-        "start" : 1635729178177,
-        "stop" : 1635729178213,
-        "duration" : 36
+        "start" : 1635729650339,
+        "stop" : 1635729650389,
+        "duration" : 50
       },
       "status" : "passed",
       "steps" : [ ],
@@ -551,8 +551,8 @@
     }, {
       "name" : "assert expected **<h2>** to contain text **Product successfully added to your shopping cart**",
       "time" : {
-        "start" : 1635729178213,
-        "stop" : 1635729178213,
+        "start" : 1635729650389,
+        "stop" : 1635729650389,
         "duration" : 0
       },
       "status" : "passed",
@@ -566,9 +566,9 @@
     }, {
       "name" : "get span[id=layer_cart_product_title]",
       "time" : {
-        "start" : 1635729178213,
-        "stop" : 1635729178867,
-        "duration" : 654
+        "start" : 1635729650389,
+        "stop" : 1635729651083,
+        "duration" : 694
       },
       "status" : "passed",
       "steps" : [ ],
@@ -581,8 +581,8 @@
     }, {
       "name" : "assert expected **<span#layer_cart_product_title.product-name>** to contain text **Faded Short Sleeve T-shirts**",
       "time" : {
-        "start" : 1635729178867,
-        "stop" : 1635729178867,
+        "start" : 1635729651083,
+        "stop" : 1635729651083,
         "duration" : 0
       },
       "status" : "passed",
@@ -602,9 +602,9 @@
     }, {
       "name" : "get span[id=\"layer_cart_product_quantity\"]",
       "time" : {
-        "start" : 1635729178867,
-        "stop" : 1635729178882,
-        "duration" : 15
+        "start" : 1635729651083,
+        "stop" : 1635729651145,
+        "duration" : 62
       },
       "status" : "passed",
       "steps" : [ ],
@@ -617,8 +617,8 @@
     }, {
       "name" : "assert expected **<span#layer_cart_product_quantity>** to contain **'1'**",
       "time" : {
-        "start" : 1635729178882,
-        "stop" : 1635729178882,
+        "start" : 1635729651145,
+        "stop" : 1635729651145,
         "duration" : 0
       },
       "status" : "passed",
@@ -632,9 +632,9 @@
     }, {
       "name" : "get .button-container a[href$='controller=order']",
       "time" : {
-        "start" : 1635729178882,
-        "stop" : 1635729178903,
-        "duration" : 21
+        "start" : 1635729651145,
+        "stop" : 1635729651157,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -647,9 +647,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635729178903,
-        "stop" : 1635729179088,
-        "duration" : 185
+        "start" : 1635729651157,
+        "stop" : 1635729651349,
+        "duration" : 192
       },
       "status" : "passed",
       "steps" : [ ],
@@ -662,8 +662,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635729179088,
-        "stop" : 1635729179088,
+        "start" : 1635729651348,
+        "stop" : 1635729651348,
         "duration" : 0
       },
       "status" : "passed",
@@ -677,9 +677,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=order",
       "time" : {
-        "start" : 1635729179088,
-        "stop" : 1635729179755,
-        "duration" : 667
+        "start" : 1635729651349,
+        "stop" : 1635729652414,
+        "duration" : 1065
       },
       "status" : "passed",
       "steps" : [ ],
@@ -692,8 +692,8 @@
     }, {
       "name" : "url",
       "time" : {
-        "start" : 1635729179755,
-        "stop" : 1635729179755,
+        "start" : 1635729652414,
+        "stop" : 1635729652414,
         "duration" : 0
       },
       "status" : "passed",
@@ -707,8 +707,8 @@
     }, {
       "name" : "assert expected **http://automationpractice.com/index.php?controller=order** to include **/index.php?controller=order**",
       "time" : {
-        "start" : 1635729179755,
-        "stop" : 1635729179755,
+        "start" : 1635729652414,
+        "stop" : 1635729652414,
         "duration" : 0
       },
       "status" : "passed",
@@ -725,8 +725,8 @@
     }, {
       "name" : "assert expected **http://automationpractice.com/index.php?controller=order** to equal **http://automationpractice.com/index.php?controller=order**",
       "time" : {
-        "start" : 1635729179755,
-        "stop" : 1635729179755,
+        "start" : 1635729652414,
+        "stop" : 1635729652414,
         "duration" : 0
       },
       "status" : "passed",
@@ -746,9 +746,9 @@
     }, {
       "name" : "get a[id=\"1_1_0_0\"]",
       "time" : {
-        "start" : 1635729179766,
-        "stop" : 1635729179779,
-        "duration" : 13
+        "start" : 1635729652414,
+        "stop" : 1635729652451,
+        "duration" : 37
       },
       "status" : "passed",
       "steps" : [ ],
@@ -761,9 +761,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635729179779,
-        "stop" : 1635729179952,
-        "duration" : 173
+        "start" : 1635729652451,
+        "stop" : 1635729652775,
+        "duration" : 324
       },
       "status" : "passed",
       "steps" : [ ],
@@ -774,10 +774,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST http://automationpractice.com/index.php?rand=1635729179874",
+      "name" : "POST http://automationpractice.com/index.php?rand=1635729652640",
       "time" : {
-        "start" : 1635729179952,
-        "stop" : 1635729179952,
+        "start" : 1635729652775,
+        "stop" : 1635729652775,
         "duration" : 0
       },
       "status" : "passed",
@@ -791,9 +791,9 @@
     }, {
       "name" : "get p[class=\"alert alert-warning\"]",
       "time" : {
-        "start" : 1635729179952,
-        "stop" : 1635729180010,
-        "duration" : 58
+        "start" : 1635729652775,
+        "stop" : 1635729652881,
+        "duration" : 106
       },
       "status" : "passed",
       "steps" : [ ],
@@ -806,8 +806,8 @@
     }, {
       "name" : "assert expected **<p#emptyCartWarning.alert.alert-warning>** to have text **Your shopping cart is empty.**",
       "time" : {
-        "start" : 1635729180007,
-        "stop" : 1635729180007,
+        "start" : 1635729652881,
+        "stop" : 1635729652881,
         "duration" : 0
       },
       "status" : "passed",
@@ -827,8 +827,8 @@
     }, {
       "name" : "assert expected **<p#emptyCartWarning.alert.alert-warning>** to contain **Your shopping cart is empty.**",
       "time" : {
-        "start" : 1635729180007,
-        "stop" : 1635729180007,
+        "start" : 1635729652881,
+        "stop" : 1635729652881,
         "duration" : 0
       },
       "status" : "passed",
@@ -865,6 +865,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b4e8f8361d665fc.json",
+  "source" : "d666ff19171de4aa.json",
   "parameterValues" : [ ]
 }
