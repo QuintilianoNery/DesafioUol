@@ -1,0 +1,24 @@
+Organizar projeto:
+- Incluir produto 'Faded Short Sleeve' no carrinho a partir do resultado da perquisa - OK
+- Realizar validações se o produto foi adicionado corretamente no carrinho - OK
+- Realizar conclusão da compra - OK
+- Validar ID do pedido na lista de histórico de pedidos  -OK
+
+- Organizar projeto com  Page Objects
+- Organizar projeto com BDD
+- Configuração de relatório Allure Report - OK
+- Documentação do projeto via Readme - Quase pronto
+- Criar mapa mental
+- Configurar paralelização com Github Actions
+
+
+- Configurar melhores páticas e reaproveitamento
+- Comfigurar credencial de uma forma segunra - OK
+
+- Tentar utilizar DOCKER
+- Tentar utilizar CI com jenkins
+
+
+
+Utilizar o https://github.com/cypress-io/eslint-plugin-cypress 
+para padrão de código
