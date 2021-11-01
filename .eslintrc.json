@@ -1,0 +1,4 @@
+{
+  "plugins": ["@cypress/dev"],
+  "estende": ["plugin:@cypress/dev/geral"]
+}
