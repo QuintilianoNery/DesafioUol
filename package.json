@@ -19,6 +19,6 @@
   "homepage": "https://github.com/QuintilianoNery/DesafioUol#readme",
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.19.5",
-    "cypress": "^6.8.0"
+    "cypress": "8.6"
   }
 }

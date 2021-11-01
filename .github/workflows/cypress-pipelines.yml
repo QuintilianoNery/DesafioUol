@@ -38,6 +38,7 @@ jobs:
         - run: npm install
         
         - run: npx cypress run --config video=true --env allure=true --browser chrome --record --key 0bc3cc58-7e00-41fa-a3ee-f0e4c707b91b
+          containers: [1, 2, 3, 4, 5]
 
           #Geração do relatório em HTML allure-report
         - name: Allure report V2
