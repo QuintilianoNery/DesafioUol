@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Nov 01 01:12:52 GMT 2021","Mon Nov 01 01:13:00 GMT 2021","7933","","Inclusão de produtos Automationpractice","","","","Inclusão de um produto no carrinho com exclusão de produto",""
+"passed","Mon Nov 01 01:13:00 GMT 2021","Mon Nov 01 01:13:17 GMT 2021","17924","","Inclusão de produtos Automationpractice","","","","Inclusão de produto no carrinho com escolha de mais produtos",""
+"passed","Mon Nov 01 01:13:30 GMT 2021","Mon Nov 01 01:13:47 GMT 2021","17298","","","","","","Inclusão de produtos no cartrinho, inserindo resultados em uma planilha",""
+"passed","Mon Nov 01 01:12:31 GMT 2021","Mon Nov 01 01:12:51 GMT 2021","20785","","Inclusão de produtos Automationpractice","","","","Inclusão de produto no carrinho com conclusão de pedido",""
