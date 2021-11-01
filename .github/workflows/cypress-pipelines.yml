@@ -17,14 +17,14 @@ on:
 # Tarefas do workflow
 jobs:
   # Onde quero executar o fluxo de trabalho
-  ui-chrome-tests:
+  build:
+    # Executar em um windows-latest, ubuntu-latest
     runs-on: ubuntu-latest
-    container: cypress/browsers:node12.18.3-chrome87-ff82
-    needs: install
+    
+    # Qual versão do node vai ser utilizada
     strategy:
-      fail-fast: false
       matrix:
-        containers: [1, 2, 3, 4, 5]
+        node-version: [12.x]
     
     # Configurações 
     # Configuração que instala o node
