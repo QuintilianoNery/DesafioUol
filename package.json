@@ -1,0 +1,23 @@
+{
+  "name": "desafiouol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuintilianoNery/DesafioUol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuintilianoNery/DesafioUol/issues"
+  },
+  "homepage": "https://github.com/QuintilianoNery/DesafioUol#readme",
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
+}
