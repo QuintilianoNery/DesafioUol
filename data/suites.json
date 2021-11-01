@@ -4,13 +4,13 @@
     "name" : "Compra de produto no e-comerce Automation Practice",
     "children" : [ {
       "name" : "Inclusão de produto no carrinho com conclusão de pedido",
-      "uid" : "c230b573112a0a44",
+      "uid" : "b411102396f521c4",
       "parentUid" : "08f6b60803eba997d17199c0d73086b1",
       "status" : "passed",
       "time" : {
-        "start" : 1635740795201,
-        "stop" : 1635740822305,
-        "duration" : 27104
+        "start" : 1635741420151,
+        "stop" : 1635741447077,
+        "duration" : 26926
       },
       "flaky" : false,
       "newFailed" : false,

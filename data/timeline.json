@@ -2,13 +2,13 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
     "name" : "Inclusão de produto no carrinho com conclusão de pedido",
-    "uid" : "c230b573112a0a44",
+    "uid" : "b411102396f521c4",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1635740795201,
-      "stop" : 1635740822305,
-      "duration" : 27104
+      "start" : 1635741420151,
+      "stop" : 1635741447077,
+      "duration" : 26926
     },
     "flaky" : false,
     "newFailed" : false,
