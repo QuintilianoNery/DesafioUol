@@ -1,12 +1,12 @@
 {
-  "uid" : "e70086e790c9acc1",
+  "uid" : "3b15b0781771bbf1",
   "name" : "Inclusão de produto no carrinho com conclusão de pedido",
   "fullName" : "Inclusão de produto no carrinho com conclusão de pedido",
   "historyId" : "9bb956150aaae83df589ad5cfac08d19",
   "time" : {
-    "start" : 1635908052950,
-    "stop" : 1635908079578,
-    "duration" : 26628
+    "start" : 1635910039928,
+    "stop" : 1635910079825,
+    "duration" : 39897
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "backgroundLogin",
       "time" : {
-        "start" : 1635908053001,
-        "stop" : 1635908053038,
-        "duration" : 37
+        "start" : 1635910039990,
+        "stop" : 1635910040085,
+        "duration" : 95
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "setCookie PrestaShop-a30a9934ef476d11b6cc3c983616e364, R6xmma6F4U6edNQuu67M0lYyG4p0n2Uj%2F%2B75zRUmzBWS%2FhpFBJtY0v0dNeXhYw4PbF5cMFyXu%2BagQjT7RandwxjVlDdhpC0yiFq9prxeX7kO25%2BLZrsKuBM7eFYMJDSjKx%2BX0hpaqVOfOTpd6B%2BM%2BnW2AfmOXAjVHSnJ8AXXBTWU70p%2FWkZQu5VE4Ylw15vkFjODpeEzNVqguWv%2BDs7EWAaRTBHlT5oK33RSpBLB5KkX8I5ObdE1tJVERFGGfEWnkdViuhrvuNPqfRS%2F8%2FRfTdC7%2BpTxPsBZXMAPVwd5k0bTeLV%2FNcPKBuMZ51lEsS0r8tspyfSWtGmpQJhUdYcn5rxpreWVe7ZSCS69H%2BCeSGVIlJ1G%2B991po9oiqTiSoyukGYD2pXk%2BAvwRTV1pn0v0ux5Zm0fP%2BUURLVMGshAigU%3D000311",
         "time" : {
-          "start" : 1635908053002,
-          "stop" : 1635908053038,
-          "duration" : 36
+          "start" : 1635910039994,
+          "stop" : 1635910040085,
+          "duration" : 91
         },
         "status" : "passed",
         "steps" : [ ],
@@ -47,9 +47,9 @@
     }, {
       "name" : "visit / -> 302: http://automationpractice.com/index.php",
       "time" : {
-        "start" : 1635908053038,
-        "stop" : 1635908056527,
-        "duration" : 3489
+        "start" : 1635910040085,
+        "stop" : 1635910044646,
+        "duration" : 4561
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "url",
       "time" : {
-        "start" : 1635908056527,
-        "stop" : 1635908056542,
-        "duration" : 15
+        "start" : 1635910044646,
+        "stop" : 1635910044697,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,8 +77,8 @@
     }, {
       "name" : "assert expected **http://automationpractice.com/index.php** to include **/index.php**",
       "time" : {
-        "start" : 1635908056542,
-        "stop" : 1635908056542,
+        "start" : 1635910044697,
+        "stop" : 1635910044697,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,9 +95,9 @@
     }, {
       "name" : "get h1",
       "time" : {
-        "start" : 1635908056542,
-        "stop" : 1635908056590,
-        "duration" : 48
+        "start" : 1635910044697,
+        "stop" : 1635910044748,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,8 +110,8 @@
     }, {
       "name" : "assert expected **<h1>** to have text **Automation Practice Website**",
       "time" : {
-        "start" : 1635908056590,
-        "stop" : 1635908056590,
+        "start" : 1635910044748,
+        "stop" : 1635910044748,
         "duration" : 0
       },
       "status" : "passed",
@@ -131,9 +131,9 @@
     }, {
       "name" : "get input[id=search_query_top]",
       "time" : {
-        "start" : 1635908056591,
-        "stop" : 1635908056602,
-        "duration" : 11
+        "start" : 1635910044748,
+        "stop" : 1635910044769,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -146,9 +146,9 @@
     }, {
       "name" : "type Faded Short Sleeve",
       "time" : {
-        "start" : 1635908056603,
-        "stop" : 1635908057091,
-        "duration" : 488
+        "start" : 1635910044769,
+        "stop" : 1635910045300,
+        "duration" : 531
       },
       "status" : "passed",
       "steps" : [ ],
@@ -161,9 +161,9 @@
     }, {
       "name" : "get button[name=submit_search]",
       "time" : {
-        "start" : 1635908057092,
-        "stop" : 1635908057101,
-        "duration" : 9
+        "start" : 1635910045300,
+        "stop" : 1635910045314,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -176,9 +176,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908057101,
-        "stop" : 1635908057285,
-        "duration" : 184
+        "start" : 1635910045314,
+        "stop" : 1635910045567,
+        "duration" : 253
       },
       "status" : "passed",
       "steps" : [ ],
@@ -191,8 +191,8 @@
     }, {
       "name" : "form sub --submitting form--",
       "time" : {
-        "start" : 1635908057281,
-        "stop" : 1635908057281,
+        "start" : 1635910045567,
+        "stop" : 1635910045567,
         "duration" : 0
       },
       "status" : "passed",
@@ -206,8 +206,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908057284,
-        "stop" : 1635908057284,
+        "start" : 1635910045567,
+        "stop" : 1635910045567,
         "duration" : 0
       },
       "status" : "passed",
@@ -221,9 +221,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=Faded+Short+Sleeve&submit_search=",
       "time" : {
-        "start" : 1635908057285,
-        "stop" : 1635908058420,
-        "duration" : 1135
+        "start" : 1635910045567,
+        "stop" : 1635910049193,
+        "duration" : 3626
       },
       "status" : "passed",
       "steps" : [ ],
@@ -236,8 +236,8 @@
     }, {
       "name" : "get a[class=\"button lnk_view btn btn-default\"]",
       "time" : {
-        "start" : 1635908058420,
-        "stop" : 1635908058420,
+        "start" : 1635910049193,
+        "stop" : 1635910049193,
         "duration" : 0
       },
       "status" : "passed",
@@ -251,9 +251,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908058420,
-        "stop" : 1635908058658,
-        "duration" : 238
+        "start" : 1635910049193,
+        "stop" : 1635910049441,
+        "duration" : 248
       },
       "status" : "passed",
       "steps" : [ ],
@@ -266,8 +266,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908058657,
-        "stop" : 1635908058657,
+        "start" : 1635910049440,
+        "stop" : 1635910049440,
         "duration" : 0
       },
       "status" : "passed",
@@ -281,9 +281,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve&results=1",
       "time" : {
-        "start" : 1635908058658,
-        "stop" : 1635908059908,
-        "duration" : 1250
+        "start" : 1635910049441,
+        "stop" : 1635910051281,
+        "duration" : 1840
       },
       "status" : "passed",
       "steps" : [ ],
@@ -296,8 +296,8 @@
     }, {
       "name" : "get h1[itemprop=name]",
       "time" : {
-        "start" : 1635908059908,
-        "stop" : 1635908059908,
+        "start" : 1635910051281,
+        "stop" : 1635910051281,
         "duration" : 0
       },
       "status" : "passed",
@@ -311,8 +311,8 @@
     }, {
       "name" : "assert expected **<h1>** to contain text **Faded Short Sleeve**",
       "time" : {
-        "start" : 1635908059908,
-        "stop" : 1635908059908,
+        "start" : 1635910051281,
+        "stop" : 1635910051281,
         "duration" : 0
       },
       "status" : "passed",
@@ -326,9 +326,9 @@
     }, {
       "name" : "get button[class=\"exclusive\"]",
       "time" : {
-        "start" : 1635908059908,
-        "stop" : 1635908059926,
-        "duration" : 18
+        "start" : 1635910051281,
+        "stop" : 1635910051315,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -341,8 +341,8 @@
     }, {
       "name" : "assert expected **<button.exclusive>** to have attribute **type** with the value **submit**",
       "time" : {
-        "start" : 1635908059926,
-        "stop" : 1635908059926,
+        "start" : 1635910051315,
+        "stop" : 1635910051315,
         "duration" : 0
       },
       "status" : "passed",
@@ -362,8 +362,8 @@
     }, {
       "name" : "assert expected **<button.exclusive>** to have attribute **Name** with the value **Submit**",
       "time" : {
-        "start" : 1635908059926,
-        "stop" : 1635908059926,
+        "start" : 1635910051315,
+        "stop" : 1635910051315,
         "duration" : 0
       },
       "status" : "passed",
@@ -383,9 +383,9 @@
     }, {
       "name" : "get a.product_quantity_up",
       "time" : {
-        "start" : 1635908059926,
-        "stop" : 1635908059943,
-        "duration" : 17
+        "start" : 1635910051315,
+        "stop" : 1635910051328,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -398,9 +398,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908059943,
-        "stop" : 1635908060182,
-        "duration" : 239
+        "start" : 1635910051328,
+        "stop" : 1635910051612,
+        "duration" : 284
       },
       "status" : "passed",
       "steps" : [ ],
@@ -413,9 +413,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908060182,
-        "stop" : 1635908060432,
-        "duration" : 250
+        "start" : 1635910051612,
+        "stop" : 1635910051787,
+        "duration" : 175
       },
       "status" : "passed",
       "steps" : [ ],
@@ -428,9 +428,9 @@
     }, {
       "name" : "get a.product_quantity_down",
       "time" : {
-        "start" : 1635908060432,
-        "stop" : 1635908060456,
-        "duration" : 24
+        "start" : 1635910051787,
+        "stop" : 1635910051816,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ ],
@@ -443,9 +443,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908060456,
-        "stop" : 1635908060655,
-        "duration" : 199
+        "start" : 1635910051816,
+        "stop" : 1635910052034,
+        "duration" : 218
       },
       "status" : "passed",
       "steps" : [ ],
@@ -458,9 +458,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908060655,
-        "stop" : 1635908060814,
-        "duration" : 159
+        "start" : 1635910052035,
+        "stop" : 1635910052284,
+        "duration" : 249
       },
       "status" : "passed",
       "steps" : [ ],
@@ -473,9 +473,9 @@
     }, {
       "name" : "get a[id=color_14]",
       "time" : {
-        "start" : 1635908060814,
-        "stop" : 1635908060835,
-        "duration" : 21
+        "start" : 1635910052284,
+        "stop" : 1635910052324,
+        "duration" : 40
       },
       "status" : "passed",
       "steps" : [ ],
@@ -488,9 +488,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908060835,
-        "stop" : 1635908061023,
-        "duration" : 188
+        "start" : 1635910052324,
+        "stop" : 1635910052807,
+        "duration" : 483
       },
       "status" : "passed",
       "steps" : [ ],
@@ -503,8 +503,8 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve&results=1#/size-s/color-blue",
       "time" : {
-        "start" : 1635908061023,
-        "stop" : 1635908061023,
+        "start" : 1635910052807,
+        "stop" : 1635910052807,
         "duration" : 0
       },
       "status" : "passed",
@@ -518,8 +518,8 @@
     }, {
       "name" : "get a[id=color_13]",
       "time" : {
-        "start" : 1635908061023,
-        "stop" : 1635908061052,
+        "start" : 1635910052807,
+        "stop" : 1635910052836,
         "duration" : 29
       },
       "status" : "passed",
@@ -533,9 +533,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908061052,
-        "stop" : 1635908061418,
-        "duration" : 366
+        "start" : 1635910052836,
+        "stop" : 1635910053059,
+        "duration" : 223
       },
       "status" : "passed",
       "steps" : [ ],
@@ -548,8 +548,8 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?id_product=1&controller=product&search_query=Faded+Short+Sleeve&results=1#/size-s/color-orange",
       "time" : {
-        "start" : 1635908061418,
-        "stop" : 1635908061418,
+        "start" : 1635910053059,
+        "stop" : 1635910053059,
         "duration" : 0
       },
       "status" : "passed",
@@ -563,9 +563,9 @@
     }, {
       "name" : "get button[name=Submit]",
       "time" : {
-        "start" : 1635908061418,
-        "stop" : 1635908061429,
-        "duration" : 11
+        "start" : 1635910053059,
+        "stop" : 1635910053128,
+        "duration" : 69
       },
       "status" : "passed",
       "steps" : [ ],
@@ -578,9 +578,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908061429,
-        "stop" : 1635908061723,
-        "duration" : 294
+        "start" : 1635910053128,
+        "stop" : 1635910053337,
+        "duration" : 209
       },
       "status" : "passed",
       "steps" : [ ],
@@ -591,11 +591,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST http://automationpractice.com/index.php?rand=1635908061637",
+      "name" : "POST http://automationpractice.com/index.php?rand=1635910053271",
       "time" : {
-        "start" : 1635908061723,
-        "stop" : 1635908061723,
-        "duration" : 0
+        "start" : 1635910053336,
+        "stop" : 1635910053337,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -608,9 +608,9 @@
     }, {
       "name" : "get .icon-ok",
       "time" : {
-        "start" : 1635908061723,
-        "stop" : 1635908061754,
-        "duration" : 31
+        "start" : 1635910053337,
+        "stop" : 1635910053357,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -623,9 +623,9 @@
     }, {
       "name" : "parent (\"\")",
       "time" : {
-        "start" : 1635908061754,
-        "stop" : 1635908061799,
-        "duration" : 45
+        "start" : 1635910053357,
+        "stop" : 1635910053408,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
@@ -638,8 +638,8 @@
     }, {
       "name" : "assert expected **<h2>** to contain text **Product successfully added to your shopping cart**",
       "time" : {
-        "start" : 1635908061799,
-        "stop" : 1635908061799,
+        "start" : 1635910053408,
+        "stop" : 1635910053408,
         "duration" : 0
       },
       "status" : "passed",
@@ -653,9 +653,9 @@
     }, {
       "name" : "get span[id=layer_cart_product_title]",
       "time" : {
-        "start" : 1635908061799,
-        "stop" : 1635908062373,
-        "duration" : 574
+        "start" : 1635910053408,
+        "stop" : 1635910054468,
+        "duration" : 1060
       },
       "status" : "passed",
       "steps" : [ ],
@@ -668,8 +668,8 @@
     }, {
       "name" : "assert expected **<span#layer_cart_product_title.product-name>** to contain text **Faded Short Sleeve**",
       "time" : {
-        "start" : 1635908062373,
-        "stop" : 1635908062373,
+        "start" : 1635910054468,
+        "stop" : 1635910054468,
         "duration" : 0
       },
       "status" : "passed",
@@ -683,9 +683,9 @@
     }, {
       "name" : "get span[id=\"layer_cart_product_quantity\"]",
       "time" : {
-        "start" : 1635908062373,
-        "stop" : 1635908062403,
-        "duration" : 30
+        "start" : 1635910054468,
+        "stop" : 1635910054505,
+        "duration" : 37
       },
       "status" : "passed",
       "steps" : [ ],
@@ -698,8 +698,8 @@
     }, {
       "name" : "assert expected **<span#layer_cart_product_quantity>** to contain **'1'**",
       "time" : {
-        "start" : 1635908062403,
-        "stop" : 1635908062403,
+        "start" : 1635910054505,
+        "stop" : 1635910054505,
         "duration" : 0
       },
       "status" : "passed",
@@ -713,9 +713,9 @@
     }, {
       "name" : "get .button-container a[href$='controller=order']",
       "time" : {
-        "start" : 1635908062403,
-        "stop" : 1635908062433,
-        "duration" : 30
+        "start" : 1635910054505,
+        "stop" : 1635910054539,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -728,9 +728,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908062433,
-        "stop" : 1635908062672,
-        "duration" : 239
+        "start" : 1635910054539,
+        "stop" : 1635910054923,
+        "duration" : 384
       },
       "status" : "passed",
       "steps" : [ ],
@@ -743,8 +743,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908062672,
-        "stop" : 1635908062672,
+        "start" : 1635910054923,
+        "stop" : 1635910054923,
         "duration" : 0
       },
       "status" : "passed",
@@ -758,9 +758,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=order",
       "time" : {
-        "start" : 1635908062672,
-        "stop" : 1635908063742,
-        "duration" : 1070
+        "start" : 1635910054923,
+        "stop" : 1635910057709,
+        "duration" : 2786
       },
       "status" : "passed",
       "steps" : [ ],
@@ -773,8 +773,8 @@
     }, {
       "name" : "get .cart_navigation a[href$='order&step=1']",
       "time" : {
-        "start" : 1635908063742,
-        "stop" : 1635908063742,
+        "start" : 1635910057709,
+        "stop" : 1635910057709,
         "duration" : 0
       },
       "status" : "passed",
@@ -788,9 +788,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908063742,
-        "stop" : 1635908064040,
-        "duration" : 298
+        "start" : 1635910057709,
+        "stop" : 1635910057886,
+        "duration" : 177
       },
       "status" : "passed",
       "steps" : [ ],
@@ -803,8 +803,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908064040,
-        "stop" : 1635908064040,
+        "start" : 1635910057886,
+        "stop" : 1635910057886,
         "duration" : 0
       },
       "status" : "passed",
@@ -818,9 +818,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=authentication&multi-shipping=0&display_guest_checkout=0&back=http%3A%2F%2Fautomationpractice.com%2Findex.php%3Fcontroller%3Dorder%26step%3D1%26multi-shipping%3D0",
       "time" : {
-        "start" : 1635908064040,
-        "stop" : 1635908065161,
-        "duration" : 1121
+        "start" : 1635910057886,
+        "stop" : 1635910059562,
+        "duration" : 1676
       },
       "status" : "passed",
       "steps" : [ ],
@@ -833,8 +833,8 @@
     }, {
       "name" : "get #email",
       "time" : {
-        "start" : 1635908065161,
-        "stop" : 1635908065161,
+        "start" : 1635910059561,
+        "stop" : 1635910059561,
         "duration" : 0
       },
       "status" : "passed",
@@ -848,9 +848,9 @@
     }, {
       "name" : "type q@qa.com",
       "time" : {
-        "start" : 1635908065161,
-        "stop" : 1635908065550,
-        "duration" : 389
+        "start" : 1635910059562,
+        "stop" : 1635910060042,
+        "duration" : 480
       },
       "status" : "passed",
       "steps" : [ ],
@@ -863,9 +863,9 @@
     }, {
       "name" : "get #passwd",
       "time" : {
-        "start" : 1635908065550,
-        "stop" : 1635908065569,
-        "duration" : 19
+        "start" : 1635910060042,
+        "stop" : 1635910060075,
+        "duration" : 33
       },
       "status" : "passed",
       "steps" : [ ],
@@ -878,9 +878,9 @@
     }, {
       "name" : "type 12345",
       "time" : {
-        "start" : 1635908065569,
-        "stop" : 1635908065845,
-        "duration" : 276
+        "start" : 1635910060075,
+        "stop" : 1635910060447,
+        "duration" : 372
       },
       "status" : "passed",
       "steps" : [ ],
@@ -893,9 +893,9 @@
     }, {
       "name" : "get button#SubmitLogin",
       "time" : {
-        "start" : 1635908065845,
-        "stop" : 1635908065874,
-        "duration" : 29
+        "start" : 1635910060447,
+        "stop" : 1635910060485,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
@@ -908,9 +908,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908065874,
-        "stop" : 1635908066175,
-        "duration" : 301
+        "start" : 1635910060485,
+        "stop" : 1635910060928,
+        "duration" : 443
       },
       "status" : "passed",
       "steps" : [ ],
@@ -923,8 +923,8 @@
     }, {
       "name" : "form sub --submitting form--",
       "time" : {
-        "start" : 1635908066175,
-        "stop" : 1635908066175,
+        "start" : 1635910060928,
+        "stop" : 1635910060928,
         "duration" : 0
       },
       "status" : "passed",
@@ -938,8 +938,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908066175,
-        "stop" : 1635908066175,
+        "start" : 1635910060928,
+        "stop" : 1635910060928,
         "duration" : 0
       },
       "status" : "passed",
@@ -953,9 +953,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=order&step=1&multi-shipping=0",
       "time" : {
-        "start" : 1635908066175,
-        "stop" : 1635908067462,
-        "duration" : 1287
+        "start" : 1635910060928,
+        "stop" : 1635910063629,
+        "duration" : 2701
       },
       "status" : "passed",
       "steps" : [ ],
@@ -968,8 +968,8 @@
     }, {
       "name" : "get input[id=addressesAreEquals]",
       "time" : {
-        "start" : 1635908067461,
-        "stop" : 1635908067461,
+        "start" : 1635910063629,
+        "stop" : 1635910063629,
         "duration" : 0
       },
       "status" : "passed",
@@ -983,8 +983,8 @@
     }, {
       "name" : "assert expected **<input#addressesAreEquals>** to have attribute **checked** with the value **checked**",
       "time" : {
-        "start" : 1635908067461,
-        "stop" : 1635908067461,
+        "start" : 1635910063629,
+        "stop" : 1635910063629,
         "duration" : 0
       },
       "status" : "passed",
@@ -1004,9 +1004,9 @@
     }, {
       "name" : "get input[id=addressesAreEquals]",
       "time" : {
-        "start" : 1635908067462,
-        "stop" : 1635908067485,
-        "duration" : 23
+        "start" : 1635910063629,
+        "stop" : 1635910063674,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1019,8 +1019,8 @@
     }, {
       "name" : "assert expected **<input#addressesAreEquals>** to have attribute **name** with the value **same**",
       "time" : {
-        "start" : 1635908067485,
-        "stop" : 1635908067485,
+        "start" : 1635910063674,
+        "stop" : 1635910063674,
         "duration" : 0
       },
       "status" : "passed",
@@ -1040,9 +1040,9 @@
     }, {
       "name" : "get button[name=processAddress]",
       "time" : {
-        "start" : 1635908067485,
-        "stop" : 1635908067521,
-        "duration" : 36
+        "start" : 1635910063674,
+        "stop" : 1635910063738,
+        "duration" : 64
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1055,9 +1055,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908067521,
-        "stop" : 1635908067752,
-        "duration" : 231
+        "start" : 1635910063738,
+        "stop" : 1635910064128,
+        "duration" : 390
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1070,8 +1070,8 @@
     }, {
       "name" : "form sub --submitting form--",
       "time" : {
-        "start" : 1635908067752,
-        "stop" : 1635908067752,
+        "start" : 1635910064127,
+        "stop" : 1635910064127,
         "duration" : 0
       },
       "status" : "passed",
@@ -1085,8 +1085,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908067752,
-        "stop" : 1635908067752,
+        "start" : 1635910064127,
+        "stop" : 1635910064127,
         "duration" : 0
       },
       "status" : "passed",
@@ -1100,9 +1100,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=order",
       "time" : {
-        "start" : 1635908067752,
-        "stop" : 1635908069525,
-        "duration" : 1773
+        "start" : 1635910064128,
+        "stop" : 1635910065133,
+        "duration" : 1005
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1115,8 +1115,8 @@
     }, {
       "name" : "get input[id=cgv]",
       "time" : {
-        "start" : 1635908069525,
-        "stop" : 1635908069525,
+        "start" : 1635910065133,
+        "stop" : 1635910065133,
         "duration" : 0
       },
       "status" : "passed",
@@ -1130,9 +1130,9 @@
     }, {
       "name" : "check",
       "time" : {
-        "start" : 1635908069525,
-        "stop" : 1635908069690,
-        "duration" : 165
+        "start" : 1635910065133,
+        "stop" : 1635910065537,
+        "duration" : 404
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1145,9 +1145,9 @@
     }, {
       "name" : "get button[name=processCarrier]",
       "time" : {
-        "start" : 1635908069690,
-        "stop" : 1635908069748,
-        "duration" : 58
+        "start" : 1635910065537,
+        "stop" : 1635910065580,
+        "duration" : 43
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1160,9 +1160,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908069748,
-        "stop" : 1635908069967,
-        "duration" : 219
+        "start" : 1635910065580,
+        "stop" : 1635910065908,
+        "duration" : 328
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1175,8 +1175,8 @@
     }, {
       "name" : "form sub --submitting form--",
       "time" : {
-        "start" : 1635908069967,
-        "stop" : 1635908069967,
+        "start" : 1635910065908,
+        "stop" : 1635910065908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1190,8 +1190,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908069967,
-        "stop" : 1635908069967,
+        "start" : 1635910065908,
+        "stop" : 1635910065908,
         "duration" : 0
       },
       "status" : "passed",
@@ -1205,9 +1205,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=order&multi-shipping=",
       "time" : {
-        "start" : 1635908069967,
-        "stop" : 1635908070726,
-        "duration" : 759
+        "start" : 1635910065909,
+        "stop" : 1635910067106,
+        "duration" : 1197
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1220,8 +1220,8 @@
     }, {
       "name" : "get .bankwire",
       "time" : {
-        "start" : 1635908070726,
-        "stop" : 1635908070726,
+        "start" : 1635910067106,
+        "stop" : 1635910067106,
         "duration" : 0
       },
       "status" : "passed",
@@ -1235,9 +1235,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908070726,
-        "stop" : 1635908070918,
-        "duration" : 192
+        "start" : 1635910067107,
+        "stop" : 1635910067368,
+        "duration" : 261
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1250,8 +1250,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908070918,
-        "stop" : 1635908070918,
+        "start" : 1635910067368,
+        "stop" : 1635910067368,
         "duration" : 0
       },
       "status" : "passed",
@@ -1265,9 +1265,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment",
       "time" : {
-        "start" : 1635908070918,
-        "stop" : 1635908071810,
-        "duration" : 892
+        "start" : 1635910067368,
+        "stop" : 1635910068492,
+        "duration" : 1124
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1280,8 +1280,8 @@
     }, {
       "name" : "get .cart_navigation button[type=submit]",
       "time" : {
-        "start" : 1635908071810,
-        "stop" : 1635908071810,
+        "start" : 1635910068491,
+        "stop" : 1635910068491,
         "duration" : 0
       },
       "status" : "passed",
@@ -1295,9 +1295,9 @@
     }, {
       "name" : "find span",
       "time" : {
-        "start" : 1635908071810,
-        "stop" : 1635908071847,
-        "duration" : 37
+        "start" : 1635910068492,
+        "stop" : 1635910068543,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1310,8 +1310,8 @@
     }, {
       "name" : "contains I confirm my order",
       "time" : {
-        "start" : 1635908071847,
-        "stop" : 1635908071889,
+        "start" : 1635910068543,
+        "stop" : 1635910068585,
         "duration" : 42
       },
       "status" : "passed",
@@ -1325,9 +1325,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908071889,
-        "stop" : 1635908072171,
-        "duration" : 282
+        "start" : 1635910068585,
+        "stop" : 1635910068878,
+        "duration" : 293
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1340,8 +1340,8 @@
     }, {
       "name" : "form sub --submitting form--",
       "time" : {
-        "start" : 1635908072170,
-        "stop" : 1635908072170,
+        "start" : 1635910068878,
+        "stop" : 1635910068878,
         "duration" : 0
       },
       "status" : "passed",
@@ -1355,8 +1355,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908072171,
-        "stop" : 1635908072171,
+        "start" : 1635910068878,
+        "stop" : 1635910068878,
         "duration" : 0
       },
       "status" : "passed",
@@ -1368,11 +1368,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "new url http://automationpractice.com/index.php?controller=order-confirmation&id_cart=3938415&id_module=3&id_order=373857&key=91ea6b2a9865aacb99be39f78ea27ccc",
+      "name" : "new url http://automationpractice.com/index.php?controller=order-confirmation&id_cart=3938477&id_module=3&id_order=373862&key=91ea6b2a9865aacb99be39f78ea27ccc",
       "time" : {
-        "start" : 1635908072171,
-        "stop" : 1635908075206,
-        "duration" : 3035
+        "start" : 1635910068878,
+        "stop" : 1635910072849,
+        "duration" : 3971
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1385,8 +1385,8 @@
     }, {
       "name" : "get div.box",
       "time" : {
-        "start" : 1635908075205,
-        "stop" : 1635908075205,
+        "start" : 1635910072849,
+        "stop" : 1635910072849,
         "duration" : 0
       },
       "status" : "passed",
@@ -1400,9 +1400,9 @@
     }, {
       "name" : "invoke .text()",
       "time" : {
-        "start" : 1635908075206,
-        "stop" : 1635908075211,
-        "duration" : 5
+        "start" : 1635910072849,
+        "stop" : 1635910072867,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1415,9 +1415,9 @@
     }, {
       "name" : "writeFile cypress/fixtures/idPedido.json",
       "time" : {
-        "start" : 1635908075213,
-        "stop" : 1635908075245,
-        "duration" : 32
+        "start" : 1635910072868,
+        "stop" : 1635910072994,
+        "duration" : 126
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1430,9 +1430,9 @@
     }, {
       "name" : "get .cheque-indent strong",
       "time" : {
-        "start" : 1635908075245,
-        "stop" : 1635908075269,
-        "duration" : 24
+        "start" : 1635910072994,
+        "stop" : 1635910073117,
+        "duration" : 123
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1445,8 +1445,8 @@
     }, {
       "name" : "assert expected **<strong.dark>** to contain text **Your order on My Store is complete.**",
       "time" : {
-        "start" : 1635908075269,
-        "stop" : 1635908075269,
+        "start" : 1635910073117,
+        "stop" : 1635910073117,
         "duration" : 0
       },
       "status" : "passed",
@@ -1466,9 +1466,9 @@
     }, {
       "name" : "get .cart_navigation a[href$='history']",
       "time" : {
-        "start" : 1635908075269,
-        "stop" : 1635908075283,
-        "duration" : 14
+        "start" : 1635910073117,
+        "stop" : 1635910073187,
+        "duration" : 70
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1481,9 +1481,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908075283,
-        "stop" : 1635908075509,
-        "duration" : 226
+        "start" : 1635910073187,
+        "stop" : 1635910073491,
+        "duration" : 304
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1496,8 +1496,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908075509,
-        "stop" : 1635908075509,
+        "start" : 1635910073490,
+        "stop" : 1635910073490,
         "duration" : 0
       },
       "status" : "passed",
@@ -1511,9 +1511,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php?controller=history",
       "time" : {
-        "start" : 1635908075509,
-        "stop" : 1635908077743,
-        "duration" : 2234
+        "start" : 1635910073491,
+        "stop" : 1635910076546,
+        "duration" : 3055
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1526,8 +1526,8 @@
     }, {
       "name" : "readFile cypress/fixtures/idPedido.json",
       "time" : {
-        "start" : 1635908077743,
-        "stop" : 1635908077743,
+        "start" : 1635910076546,
+        "stop" : 1635910076546,
         "duration" : 0
       },
       "status" : "passed",
@@ -1541,9 +1541,9 @@
     }, {
       "name" : "get tr.first_item .history_link a",
       "time" : {
-        "start" : 1635908077743,
-        "stop" : 1635908077775,
-        "duration" : 32
+        "start" : 1635910076546,
+        "stop" : 1635910076670,
+        "duration" : 124
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1554,10 +1554,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<a.color-myaccount>** to contain text **VZZRKIUMA**",
+      "name" : "assert expected **<a.color-myaccount>** to contain text **IBSDUKKON**",
       "time" : {
-        "start" : 1635908077775,
-        "stop" : 1635908077775,
+        "start" : 1635910076670,
+        "stop" : 1635910076670,
         "duration" : 0
       },
       "status" : "passed",
@@ -1571,9 +1571,9 @@
     }, {
       "name" : "get div[id=header_logo]",
       "time" : {
-        "start" : 1635908077775,
-        "stop" : 1635908077813,
-        "duration" : 38
+        "start" : 1635910076670,
+        "stop" : 1635910076723,
+        "duration" : 53
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1586,9 +1586,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1635908077813,
-        "stop" : 1635908078280,
-        "duration" : 467
+        "start" : 1635910076723,
+        "stop" : 1635910077321,
+        "duration" : 598
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1601,8 +1601,8 @@
     }, {
       "name" : "page load --waiting for new page to load--",
       "time" : {
-        "start" : 1635908078280,
-        "stop" : 1635908078280,
+        "start" : 1635910077321,
+        "stop" : 1635910077321,
         "duration" : 0
       },
       "status" : "passed",
@@ -1616,9 +1616,9 @@
     }, {
       "name" : "new url http://automationpractice.com/index.php",
       "time" : {
-        "start" : 1635908078280,
-        "stop" : 1635908079576,
-        "duration" : 1296
+        "start" : 1635910077321,
+        "stop" : 1635910079823,
+        "duration" : 2502
       },
       "status" : "passed",
       "steps" : [ ],
@@ -1631,8 +1631,8 @@
     }, {
       "name" : "url",
       "time" : {
-        "start" : 1635908079576,
-        "stop" : 1635908079576,
+        "start" : 1635910079823,
+        "stop" : 1635910079823,
         "duration" : 0
       },
       "status" : "passed",
@@ -1646,8 +1646,8 @@
     }, {
       "name" : "assert expected **http://automationpractice.com/index.php** to include **/index.php**",
       "time" : {
-        "start" : 1635908079576,
-        "stop" : 1635908079576,
+        "start" : 1635910079823,
+        "stop" : 1635910079823,
         "duration" : 0
       },
       "status" : "passed",
@@ -1664,8 +1664,8 @@
     }, {
       "name" : "assert expected **http://automationpractice.com/index.php** to equal **http://automationpractice.com/index.php**",
       "time" : {
-        "start" : 1635908079576,
-        "stop" : 1635908079576,
+        "start" : 1635910079823,
+        "stop" : 1635910079823,
         "duration" : 0
       },
       "status" : "passed",
@@ -1708,6 +1708,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e70086e790c9acc1.json",
+  "source" : "3b15b0781771bbf1.json",
   "parameterValues" : [ ]
 }

@@ -1,10 +1,10 @@
 [ {
-  "uid" : "e70086e790c9acc1",
+  "uid" : "3b15b0781771bbf1",
   "name" : "Inclusão de produto no carrinho com conclusão de pedido",
   "time" : {
-    "start" : 1635908052950,
-    "stop" : 1635908079578,
-    "duration" : 26628
+    "start" : 1635910039928,
+    "stop" : 1635910079825,
+    "duration" : 39897
   },
   "status" : "passed",
   "severity" : "normal"
