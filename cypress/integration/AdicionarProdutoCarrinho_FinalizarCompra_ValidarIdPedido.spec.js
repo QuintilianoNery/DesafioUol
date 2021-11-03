@@ -6,7 +6,7 @@ let valorProduto = '$16.51';
 
 describe('Compra de produto no e-comerce Automation Practice', () => {
     //Este teste foi realizado para identificar o processo completo de compras.
-    it.only('Inclusão de produto no carrinho com conclusão de pedido', () => {
+    it('Inclusão de produto no carrinho com conclusão de pedido', () => {
         //Seleção do produto
         //login com setCookie
         cy.backgroundLogin();
@@ -20,6 +20,7 @@ describe('Compra de produto no e-comerce Automation Practice', () => {
         cy.get('h1')
             .should('have.text', 'Automation Practice Website');
 
+        //Seleção do produto
         //Pesquisar por nome do produto
         cy.get('input[id=search_query_top]')
             .type(nomeProduto1);
@@ -78,7 +79,6 @@ describe('Compra de produto no e-comerce Automation Practice', () => {
 
         //Página de informações dos produtos no cartrinho
         //Clicar no botão para continuar com o checkout
-
         cy.get(".cart_navigation a[href$='order&step=1']")
             .click();
 
@@ -93,7 +93,6 @@ describe('Compra de produto no e-comerce Automation Practice', () => {
         cy.get('button#SubmitLogin')
             .click();
 
-
         cy.get('input[id=addressesAreEquals]')
             .should('have.attr', 'checked', 'checked');
         cy.get('input[id=addressesAreEquals]')
@@ -102,6 +101,13 @@ describe('Compra de produto no e-comerce Automation Practice', () => {
         //clicar no botão continuar com o checkout da tela de endereços
         cy.get('button[name=processAddress]')
             .click();
+
+
+
+
+
+
+
 
         //Etapa de entrega
         //Marcar que aceita os termos de serviços
@@ -145,7 +151,14 @@ describe('Compra de produto no e-comerce Automation Practice', () => {
         //4. obter o id do pedido
         cy.get(".cart_navigation a[href$='history']").click()
 
-        //leitura de um arquivo
+
+
+
+
+
+
+
+        //leitura de um arquivo com o ID do pedido
         cy.readFile('cypress/fixtures/idPedido.json').then((pedidos) => {
 
             //pegando o valor que foi informado no arquivo .json e validando com a tela de lista de pedidos na primeira linha
