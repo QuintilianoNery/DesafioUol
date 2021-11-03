@@ -89,10 +89,10 @@ When(/^realizar o login$/, () => {
 	//Em um projeto real, Ingnora-se o arquivo cypress.env para evitar que seja enviada as credenciais para o repositório.
 	//login com credenciais em variável de ambiente
 	cy.get('#email')
-		.type(Cypress.env('EMAIL-LOGIN'));
+		.type('q@qa.com');
 
 	cy.get('#passwd')
-		.type(Cypress.env('S='));
+		.type('12345');
 
 	cy.get('button#SubmitLogin')
 		.click();
