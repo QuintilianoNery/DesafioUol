@@ -4,11 +4,6 @@ Feature: Feature compra de produto
     Para que possa finalizar a compra do item
 
     Scenario: Inclusão de produto no carrinho com conclusão de pedido
-        # Given  - dado - Dado que acesso o meu sistema e Estou autenticado
-        # When - Quando
-        # Then - Então
-        # And - E
-
         Given que acesso o site Automation Practice
         When selecionar o produto
         And incluir no carrinho
@@ -16,4 +11,4 @@ Feature: Feature compra de produto
         Then devo concluir a compra do ítem
         And validar se a compra foi realizada com base na lista de histórico de compras
         And voltar para a página inicial do site
-        
+
