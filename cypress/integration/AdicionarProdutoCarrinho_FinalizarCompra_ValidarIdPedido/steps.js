@@ -1,10 +1,6 @@
 //passos para a implementação dos passos descritos na feature
 /// <reference types="cypress" />
 
-//Setando variável com nome do produto1
-let nomeProduto1 = 'Faded Short Sleeve';
-let valorProduto = '$16.51';
-
 
 Given(/^que acesso o site Automation Practice$/, () => {
 	//login com setCookie
@@ -25,7 +21,7 @@ When(/^selecionar o produto$/, () => {
 	//Seleção do produto
 	//Pesquisar por nome do produto
 	cy.get('input[id=search_query_top]')
-		.type(nomeProduto1);
+		.type('Faded Short Sleeve');
 
 	cy.get('button[name=submit_search]')
 		.click();
@@ -36,7 +32,7 @@ When(/^selecionar o produto$/, () => {
 
 	//Verificar se o protudo da tela é o desejado
 	cy.get('h1[itemprop=name]')
-		.should('contain.text', nomeProduto1);
+		.should('contain.text', 'Faded Short Sleeve');
 
 });
 
@@ -74,7 +70,7 @@ When(/^incluir no carrinho$/, () => {
 		.should('contain.text', 'Product successfully added to your shopping cart');
 
 	cy.get('span[id=layer_cart_product_title]')
-		.should('contain.text', nomeProduto1);
+		.should('contain.text', 'Faded Short Sleeve');
 
 	//Verificar quantidade de produtos no carrinho 
 	cy.get('span[id="layer_cart_product_quantity"]')
