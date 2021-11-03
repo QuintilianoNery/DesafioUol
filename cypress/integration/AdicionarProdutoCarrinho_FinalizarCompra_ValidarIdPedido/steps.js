@@ -92,7 +92,7 @@ When(/^realizar o login$/, () => {
 		.type(Cypress.env('EMAIL-LOGIN'));
 
 	cy.get('#passwd')
-		.type(Cypress.env('SENHA-LOGIN'));
+		.type(Cypress.env('S='));
 
 	cy.get('button#SubmitLogin')
 		.click();
