@@ -55,3 +55,9 @@ OBS: Instalação da versão 6.9.1 pois está bem estável. Outro motivo é que 
 - [Mapa Mental](https://whimsical.com/loja-onlineautomation-practice-VhPdydzTjoZdsCdQwX3az6@3CRerdhrAw93LEeLAYZXqrh8)
 - Relatório no github-pages, através de CI: [Github-pages CI](https://github.com/QuintilianoNery/DesafioUol/deployments/activity_log?environment=github-pages)
 - Cypress dashboard: [Cypress dashboard](https://dashboard.cypress.io/projects/3j36ij/runs?branches=%5B%5D&committers=%5B%5D&flaky=%5B%5D&page=1&status=%5B%5D&tags=%5B%5D&timeRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D)
+
+
+
+
+# Obs.:
+- Pesso desculpas por entregar o projeto atrasado, entregar com falha na execução e não atendendo todos os requisitos esperados pela empresa, porém o Cypress particularmente é uma ferramenta que eu gosto muito e que se eu tiver uma oportunidade para trabalhar juntamente com vocês pretendo aprender bem a fundo para praticar no dia a dia em teus cliente.
