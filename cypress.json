@@ -1,6 +1,12 @@
 {
-  "baseUrl": "http://automationpractice.com",
+  "$schema": "https://on.cypress.io/cypress.schema.json",
   "experimentalStudio": true,
   "projectId": "3j36ij",
-  "testFiles": "**/*.*spec.*"
+  "video": false,
+  "viewportWidth": 1600,
+  "viewportHeight": 900,
+  "chromeWebSecurity": false,
+  "numTestsKeptInMemory": 5,
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}"
 }

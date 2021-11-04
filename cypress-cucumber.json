@@ -1,6 +1,0 @@
-{
-  "baseUrl": "http://automationpractice.com",
-  "experimentalStudio": true,
-  "projectId": "3j36ij",
-  "testFiles": "**/*.feature"
-}

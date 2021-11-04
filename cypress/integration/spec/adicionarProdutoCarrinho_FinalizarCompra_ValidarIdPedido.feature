@@ -1,6 +1,5 @@
-Feature: Feature compra de produto
-
-    Como um usuario, desejo adicionar um produto ao carrinho
+Feature: Compra de produto
+    Como um usuario desejo adicionar um produto ao carrinho
     Para que possa finalizar a compra do item
 
     Scenario: Inclusão de produto no carrinho com conclusão de pedido
@@ -11,4 +10,3 @@ Feature: Feature compra de produto
         Then devo concluir a compra do ítem
         And validar se a compra foi realizada com base na lista de histórico de compras
         And voltar para a página inicial do site
-

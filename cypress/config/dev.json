@@ -1,0 +1,10 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "baseUrl": "http://automationpractice.com",
+    "env": {
+        "global_timeout":30000,
+        "environment":"dev",
+        "EMAIL-LOGIN": "q@qa.com",
+        "SENHA-LOGIN": "12345"
+    }
+}

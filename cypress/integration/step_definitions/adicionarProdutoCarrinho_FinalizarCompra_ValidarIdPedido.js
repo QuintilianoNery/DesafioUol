@@ -1,8 +1,7 @@
-//passos para a implementação dos passos descritos na feature
 /// <reference types="cypress" />
+import {Given, When, Then, Before} from 'cypress-cucumber-preprocessor/steps'
 
-
-Given(/^que acesso o site Automation Practice$/, () => {
+Given(`que acesso o site Automation Practice`, () => {
 	//login com setCookie
 	cy.backgroundLogin();
 
@@ -16,7 +15,7 @@ Given(/^que acesso o site Automation Practice$/, () => {
 		.should('have.text', 'Automation Practice Website');
 });
 
-When(/^selecionar o produto$/, () => {
+When(`selecionar o produto`, () => {
 
 	//Seleção do produto
 	//Pesquisar por nome do produto
@@ -36,7 +35,7 @@ When(/^selecionar o produto$/, () => {
 
 });
 
-When(/^incluir no carrinho$/, () => {
+When(`incluir no carrinho`, () => {
 
 	//Validar se o botão add to cart existe
 	cy.get('button[class="exclusive"]')
@@ -80,7 +79,7 @@ When(/^incluir no carrinho$/, () => {
 		.click();
 });
 
-When(/^realizar o login$/, () => {
+When(`realizar o login`, () => {
 	//Página de informações dos produtos no cartrinho
 	//Clicar no botão para continuar com o checkout
 	cy.get(".cart_navigation a[href$='order&step=1']")
@@ -103,7 +102,7 @@ When(/^realizar o login$/, () => {
 		.should('have.attr', 'name', 'same');
 });
 
-Then(/^devo concluir a compra do ítem$/, () => {
+Then(`devo concluir a compra do ítem`, () => {
 	//Etapa de entrega
 	//Marcar que aceita os termos de serviços
 	cy.get('input[id=cgv]')
@@ -147,7 +146,7 @@ Then(/^devo concluir a compra do ítem$/, () => {
 	cy.get(".cart_navigation a[href$='history']").click();
 });
 
-Then(/^validar se a compra foi realizada com base na lista de histórico de compras$/, () => {
+Then(`validar se a compra foi realizada com base na lista de histórico de compras`, () => {
 	//leitura de um arquivo com o ID do pedido
 	cy.readFile('cypress/fixtures/idPedido.json').then((pedidos) => {
 
@@ -157,7 +156,7 @@ Then(/^validar se a compra foi realizada com base na lista de histórico de comp
 	});
 });
 
-Then(/^voltar para a página inicial do site$/, () => {
+Then(`voltar para a página inicial do site`, () => {
 	//Clicar na logo e voltar para a página inicial
 	cy.get('div[id=header_logo]')
 		.click();
