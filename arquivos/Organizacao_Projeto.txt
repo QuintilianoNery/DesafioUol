@@ -3,22 +3,13 @@ Organizar projeto:
 - Realizar validações se o produto foi adicionado corretamente no carrinho - OK
 - Realizar conclusão da compra - OK
 - Validar ID do pedido na lista de histórico de pedidos  -OK
-
-- Organizar projeto com  Page Objects
-- Organizar projeto com BDD
+- Organizar projeto com  Page Objects - Não consegui concluir
+- Organizar projeto com Cucumber - Sim, porém estou com erro na execução que não consegui identificar
 - Configuração de relatório Allure Report - OK
-- Documentação do projeto via Readme - Quase pronto
+- Documentação do projeto via Readme - OK
 - Criar mapa mental
-- Configurar paralelização com Github Actions
-
-
-- Configurar melhores páticas e reaproveitamento
+- Configurar paralelização com Github Actions - OK
+- Configurar melhores páticas e reaproveitamento - Não consegui terminar
 - Comfigurar credencial de uma forma segunra - OK
-
-- Tentar utilizar DOCKER
-- Tentar utilizar CI com jenkins
-
-
-
-Utilizar o https://github.com/cypress-io/eslint-plugin-cypress 
-para padrão de código
+- Tentar utilizar DOCKER - Tenho que a aprender usar Cypress com Docker
+- Tentar utilizar CI com jenkins - Tenho que aprender usar o jenkins para integração contínua
